@@ -4,7 +4,7 @@
 ** My strengths** *are persistence in achieving goals, hardworking and quick learner.*
 **My experience :** *I worked as  seller in shop, teacher of English and Robototechnics in primary school, geologist and translator at gold deposit, accountant in akimat. Now it is time to try something new. My credo is - live and learn.*
 
-I don't know programming languages yet, but I hope to learn it with help of your school
+I don't know programming languages yet, but I hope to learn it with help of your school.
 
 I have no experience in programming yet.
 
