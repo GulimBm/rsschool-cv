@@ -1,13 +1,27 @@
 body{
-    background-color: aqua;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 img{
-    border: 1px solid aqua;
+    border: 1px solid #414345;
     border-radius: 50%;
 }
 header{
+    display: flex;
+    background-color: #414345;
     border: 1px solid black;
 }
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.header {
+    color: #f0ebcd;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 300;
+}
+
 footer{
     border: 1px solid yellow;
 }
@@ -15,6 +29,6 @@ main{
 border: 1px solid red;
 }
 aside{
-    background-color: grey;
+    background-color: #cde2ea;
     border: 1px solid green;
 }
