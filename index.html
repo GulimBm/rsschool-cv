@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <section class="container">
             <nav class="navbar">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -22,107 +22,122 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts">Summary
+                        <a href="#summary">Summary
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts">Education
+                        <a href="#education">Education
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts">Code
+                        <a href="#code">Code
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts">Projects
+                        <a href="#projects">Projects
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts">Skills
+                        <a href="#skills">Skills
                         </a>
                     </li>
                    
                 </ul>
             </nav>
-            <div class="header-container">
+            <section class="header-container">
                 <img src="assets/img/ava.jpg" alt="image">
                 <div class="heading">
                     <h1>Batyrgaliyeva Gulim</h1> 
                 <h2 class="header italic">Junior Web Developer (entry level)</h2>
-                </div>
+                </section>
             </div>
-        </div>
+        </section>
         
     </header>
     <aside>
-        <div class="container">
-            <div class="aside-container"><h2>Contact information:</h2>
+        <section class="container">
+            <div class="aside-container"><h2 id="contacts">Contact information:</h2>
                 <p>Phone: 87772357298</p>
                 <p>E-mail: gulim_0007@mail.ru</p>
                 <p>Telegram: @Gulim</p>
             </div>
             
-        </div>
+        </section>
         
     </aside>
     <main>
         <div class="container">
             <div class="main-container">
-                <h2>Briefly About Myself:</h2>
-                <p>My strengths are persistence in achieving goals, hardworking and quick learner.
-                    My experience :I worked as  seller in shop, teacher of English and Robototechnics in primary school,
-                     geologist and translator at gold deposit, accountant in akimat. Now it is time to try something new.
-                     My credo is - live and learn.</p>
-                <p>I don't know programming languages yet, but I hope to learn it with help of your school.</p>
-                <p>I have no experience in programming yet.</p>
-                <h2>Education</h2>
-                <p>I finished East Kazakhstan State University (2001-2006) as teacher of English and Turkish Languages and 
-                    East Kazakhstan State Technical Universuty (2007-2009) as a bachelor of Informational system.</p>
-                <h3>Programming courses</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.udemy.com/course/build-a-simple-calculator-using-html-css-and-javascript/">Build a calculator using HTML, CSS and Javascript</a> finished
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/course/css-3-loading-animations/">CSS3 loading animations</a> finished
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">Udemy course 'The Web-developer Botcamp 2022'</a> in progress
-                    </li>
-                    <li>
-                        <a href="https://ru.code-basics.com/languages/javascript/">Code Basics: Learn Javascript</a> in progress
-                    </li>
-                    <li>
-                        <a href="https://rs.school/js-stage0/">JS/FE Pre-school2022Q2</a> in progress
-                    </li>
-                </ul>
+                <section class="summary">
+                    <h2 id="summary">Briefly About Myself:</h2>
+                    <p>My strengths are persistence in achieving goals, hardworking and quick learner.
+                        My experience :I worked as  seller in shop, teacher of English and Robototechnics in primary school,
+                         geologist and translator at gold deposit, accountant in akimat. Now it is time to try something new.
+                         My credo is - live and learn.</p>
+                    <p>I don't know programming languages yet, but I hope to learn it with help of your school.</p>
+                    <p>I have no experience in programming yet.</p>    
+                </section>
+
+                <section class="education">
+                    <h2 id="education">Education</h2>
+                    <p>I finished East Kazakhstan State University (2001-2006) as teacher of English and Turkish Languages and 
+                        East Kazakhstan State Technical Universuty (2007-2009) as a bachelor of Informational system.</p>
+                    <h3>Programming courses</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.udemy.com/course/build-a-simple-calculator-using-html-css-and-javascript/">Build a calculator using HTML, CSS and Javascript</a> finished
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/css-3-loading-animations/">CSS3 loading animations</a> finished
+                        </li>
+                        <li>
+                            <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">Udemy course 'The Web-developer Botcamp 2022'</a> in progress
+                        </li>
+                        <li>
+                            <a href="https://ru.code-basics.com/languages/javascript/">Code Basics: Learn Javascript</a> in progress
+                        </li>
+                        <li>
+                            <a href="https://rs.school/js-stage0/">JS/FE Pre-school2022Q2</a> in progress
+                        </li>
+                    </ul>
+                </section>
                 
-                <h2>Code example</h2>
-                <code>
-                    <pre>
-                            const truncate = (text, length) => {<br>
-                                const result = `${text.slice(0, length)}...`;<br>
-                                return result;<br>
-                            };<br>
-                    </pre>
-                </code>
-                <h2>Projects</h2>
-                <ul>
-                    <li>1gi</li>
-                </ul>
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Figma</li>
-                    <li>Photoshop</li>
-                    <li>Bootsrap</li>
-                </ul>   
-                <h2>Languages</h2>
+                <section class="code">
+                    <h2 id="code">Code example</h2>
+                    <code>
+                        <pre>
+                                const truncate = (text, length) => {<br>
+                                    const result = `${text.slice(0, length)}...`;<br>
+                                    return result;<br>
+                                };<br>
+                        </pre>
+                    </code>
+                </section>
+                <section class="projects">
+                    <h2 id="projects">Projects</h2>
+                    <ul>
+                        <li>1gi</li>
+                    </ul>
+                </section>
+
+                <section class="skills">
+                    <h2 id="skills">Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>Bootsrap</li>
+                    </ul>   
+                </section>
+                <section class="languages" id="languages">
+                    <h2>Languages</h2>
                 <p>English level is approximately A2(intermediate according to the online test at EFset Logo www.efset.org)
                     ![engl test pic](https://user-images.githubusercontent.com/61407209/171846519-0c1a60f0-8d50-41c4-b50b-774b38a5f4b0.png)
                 </p>
+                </section>
+                
                 
             </div>
         </div>
