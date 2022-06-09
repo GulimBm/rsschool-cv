@@ -74,14 +74,14 @@ h1{
     font-weight: 400;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 3px;
 }
 .header-container{
     display: flex;
 }
 .header {
-    color: #f0ebcd;
+    color: rgb(238, 189, 129);
     text-transform: uppercase;
     font-style: italic;
     font-weight: 400;
@@ -95,7 +95,7 @@ footer{
     height: 20px;
 }
 aside{
-    position: relative;
+    position: absolute;
     display: flex;
     /* justify-content: center; */
     /* align-items: center;
@@ -103,8 +103,8 @@ aside{
     background-color: #cde2ea;
     border: 1px solid green;
     width: 430px;
-    height: 1235px;
-    top: -1580px; 
+    height: 1500px;
+    top: 405px; 
     padding:70px 10px 30px 50px;   
 }
 main{
@@ -139,8 +139,9 @@ position: relative;
 }
 .head-span-light{
     background-color: #414345;
-    color:#f0ebcd;
+    color:rgb(238, 189, 129);
     padding: 10px;
+    font-weight: 900;
     
 }
 
@@ -179,3 +180,12 @@ span:hover {
     font-size: 22px;
     
 }
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #cde2ea;;
+  }
+  th, td {
+    padding: 20px;
+  }
