@@ -105,22 +105,32 @@ h1:hover{
 footer{
     position: absolute;
     display: flex;
-    justify-content: space-between; 
-    justify-items: center;
+    /* justify-content: space-between;  */
+    justify-content: space-between;
+    align-items: center;
     overflow: hidden; 
     width:1335px;
     padding: 40px;
     top: 2035px;
     background-color: #5e8b9c;
-    justify-content: space-between;
-    flex-direction: row;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2c261c;
+
 }
-.footer-anchor{
+.footer-github{
     text-decoration: none;
-    color:#2c261c;
+    display:block;
+    color: #2c261c;
+
 }
-a.footer-anchor:hover{
+a.footer-github:hover{
     color: rgb(208, 231, 250);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+a.footer-rsschool:hover{
+    background-color: #6da1b4;;
     text-decoration: underline;
     transition: 0.3s;
 }
