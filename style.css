@@ -50,6 +50,7 @@ a.courses:hover{
     color: rgb(59, 46, 46);
     transition: 0.3s;
     text-decoration: underline;
+    cursor: pointer;
 }
 .avatar{
     border: 1px solid #414345;
@@ -74,11 +75,22 @@ header{
 h1{
     color: white;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
     letter-spacing: 3px;
+    text-shadow:
+    2px 2px 2px silver,
+    -2px 2px 2px silver;
+    transition: all .5s;
+}
+h1:hover{
+    cursor: pointer;
+    text-shadow:
+          -2px -2px 2px rgb(6, 6, 6),
+          2px -2px 2px rgb(22, 21, 21);
+     color: white;
 }
 .header-container{
     display: flex;
@@ -94,7 +106,7 @@ footer{
     position: absolute;
     display: flex;
     justify-content: space-between; 
-    align-items: center;
+    justify-items: center;
     overflow: hidden; 
     width:1335px;
     padding: 40px;
@@ -154,6 +166,7 @@ position: absolute;
 h2 span:hover{
     background-color: rgb(51, 185, 203);
     transition: 0.001s ease;
+    cursor: pointer;
 }
 #square{
     background-color: #131d57;
