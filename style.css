@@ -198,3 +198,22 @@ table {
       width: 100px;
       height: 50px;     
   }
+  #contacts-list{
+      list-style-type: none;
+      line-height: 50px;
+  }
+  #skills-list{
+    list-style-type: none;
+    line-height: 60px;
+
+  }
+.squares{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#lang-list{
+    list-style-type: none;
+    line-height: 60px;
+
+  }
