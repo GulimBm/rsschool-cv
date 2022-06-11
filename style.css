@@ -72,6 +72,11 @@ h1:hover{
     margin: 50px;
 }
 
+h2 span:hover{
+    background-color: #25313b;
+    transition: 0.001s ease;
+    cursor: pointer;
+}
 .nav-list{
     display: flex;
     justify-content: flex-end;
@@ -113,21 +118,26 @@ aside{
 .head-span-dark{
     background-color: #5e8b9c;;
     color: #31404f;
-    padding: 10px;
-   
-    
+    padding: 10px;    
 }
+.head-span-dark:hover{
+    background-color: #557e8d;
+    transition: 0.001s ease;
+    cursor: pointer;
+}  
 .head-span-light{
        background-color: #31404f;
        color:rgb(238, 189, 129);
        padding: 10px;
        font-weight: 500;   
-   }
-h2 span:hover{
-    background-color: rgb(51, 185, 203);
+}
+   .head-span-light:hover{
+    background-color: #3d4e60;;
     transition: 0.001s ease;
     cursor: pointer;
-}
+}   
+
+
 
 .courses{
     color:#2c261c;
