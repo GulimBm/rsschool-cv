@@ -111,7 +111,7 @@ footer{
     overflow: hidden; 
     width:1335px;
     padding: 40px;
-    top: 2035px;
+    top: 2285px;
     background-color: #5e8b9c;
     font-size: 30px;
     font-weight: 600;
@@ -144,7 +144,7 @@ aside{
     display: flex;
     background-color: #5e8b9c;
     width: 440px;
-    height: 1500px;
+    height: 1750px;
     top: 395px; 
     padding:70px 10px 70px 50px;   
 }
@@ -156,7 +156,7 @@ position: absolute;
     margin-inline-start: 500px;
     padding: 70px 10px 70px 50px; 
     background-color: rgb(208, 231, 250);
-    height: 1500px;
+    height: 1750px;
     top: 395px; 
 }
 .head-span-dark{
@@ -226,4 +226,50 @@ table {
     list-style-type: none;
     line-height: 60px;
 
+  }
+ 
+
+
+
+
+  .fig-card{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 250px;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .fig-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .fig-card img {
+    max-width: 80%;
+    margin-top: -15px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    backface-visibility: hidden;
+    vertical-align: top;
+    border-radius: 5px;
+  }
+  
+  .fig-card figcaption {
+    padding: 15px;
+  }
+  
+  .fig-card h3 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: normal;
+  }
+
+  .img-card{
+    width: 200px;
+    height: 200px;
   }
