@@ -1,0 +1,255 @@
+
+html{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+body{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    min-height: 100vh;
+    font-weight: 500;
+    color: #2c261c;
+    background-color: #c2d6f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 1415px;    */
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    position:sticky;
+    display: flex;
+    background-color: #31404f;
+    border: 1px solid black;
+    width: 1413px;
+
+}
+.header {
+    color: rgb(249, 189, 68);
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+}
+.header-container{
+    display: flex;
+}
+.avatar{
+    border: 1px solid #414345;
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+    justify-content: flex-start;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-shadow:
+    2px 2px 2px silver,
+    -2px 2px 2px silver;
+    transition: all .5s;
+}
+h1:hover{
+    cursor: pointer;
+    text-shadow:
+          -2px -2px 2px rgb(6, 6, 6),
+          2px -2px 2px rgb(22, 21, 21);
+     color: white;
+}
+.heading{
+    margin: 50px;
+}
+
+h2 span:hover{
+    background-color: #25313b;
+    transition: 0.001s ease;
+    cursor: pointer;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    color:rgb(238, 189, 129);
+}
+a{
+    text-decoration: none;
+}
+a.nav-link:hover{
+    color: white;
+    transition: 0.3s;
+    font-size:30px;
+}
+main{
+    position: absolute;
+    width: 855px;
+    overflow: hidden;
+    margin-inline-start: 500px;
+    padding: 70px 10px 70px 50px; 
+    background-color: rgb(208, 231, 250);
+    height: 1750px;
+    top: 395px; 
+}
+aside{
+    position: absolute;
+    display: flex;
+    background-color: #5e8b9c;
+    width: 440px;
+    height: 1750px;
+    top: 395px; 
+    padding:70px 10px 70px 50px;   
+}
+.head-span-dark{
+    background-color: #5e8b9c;;
+    color: #31404f;
+    padding: 10px;    
+}
+.head-span-dark:hover{
+    background-color: #557e8d;
+    transition: 0.001s ease;
+    cursor: pointer;
+}  
+.head-span-light{
+       background-color: #31404f;
+       color:rgb(238, 189, 129);
+       padding: 10px;
+       font-weight: 500;   
+}
+   .head-span-light:hover{
+    background-color: #3d4e60;;
+    transition: 0.001s ease;
+    cursor: pointer;
+}   
+
+
+
+.courses{
+    color:#2c261c;
+}
+a.courses:hover{
+    color: rgb(59, 46, 46);
+    transition: 0.3s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.code-text{
+    font-size: 16px;
+}
+#contacts-list{
+      list-style-type: none;
+      line-height: 50px;
+}
+#skills-list{
+    list-style-type: none;
+    line-height: 60px;
+}
+.squares{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#lang-list{
+    list-style-type: none;
+    line-height: 60px;
+}
+.fig-card{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 250px;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.fig-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.fig-card img {
+    max-width: 80%;
+    margin-top: -15px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    backface-visibility: hidden;
+    vertical-align: top;
+    border-radius: 5px;
+}
+  
+.fig-card figcaption {
+    padding: 15px;
+    color: #131d57;
+}
+  
+.fig-card h3 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.img-card{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden; 
+    width:1335px;
+    padding: 40px;
+    top: 2285px;
+    background-color: #5e8b9c;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2c261c;
+
+}
+.footer-github{
+    text-decoration: none;
+    display:block;
+    color: #2c261c;
+
+}
+a.footer-github:hover{
+    color: rgb(208, 231, 250);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+a.footer-rsschool:hover{
+    background-color: #6da1b4;;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.icon{
+    width: 10px;
+    height: 20px;
+    
+}
+.rsschool-icon{
+    width: 100px;
+    height: 50px;     
+}
+
